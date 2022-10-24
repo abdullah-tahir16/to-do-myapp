@@ -3,7 +3,7 @@ import React from "react";
 
 const Items = React.memo((props) => {
 
-
+console.log("child");
   return (
     <div className="App">
      

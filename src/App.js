@@ -39,6 +39,7 @@ const onChangeBox = useCallback((item)=> {
   }));
 },[]);
 
+console.log("parent")
   return (
     <div className="App">
       {state.items.map(item => (
